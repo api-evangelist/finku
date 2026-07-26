@@ -1,7 +1,29 @@
 aid: finku
 name: Finku
-description: Finku is a company surfaced as a portfolio company of 500-global, partech and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Finku is an AI-based personal finance management (PFM) mobile app from Indonesia,
+  recognized as the number-one Indonesia PFM app and a Google Play "Best of 2025"
+  selection with more than one million users. It helps people track expenses, set
+  budgets, and build better money habits through manual entry, receipt and bank
+  e-statement scanning, and FinGPT, a chat-based AI financial assistant. The app
+  connects multiple banks and e-wallets, generates real-time interactive dashboards
+  and reports, and runs a freemium model with a Premium tier. Finku is registered
+  with Indonesian regulators OJK, Kominfo, AFTECH, and AFPI, and secures user data
+  with 256-bit AES encryption. Finku is a consumer application and does not currently
+  publish a public developer API, SDK, or developer portal; this profile originated
+  as a VC-portfolio lead for the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://finku.id/_next/static/media/finku-logo-white.2bdd6e55.png
 url: https://raw.githubusercontent.com/api-evangelist/finku/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +34,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Personal Finance
+- Fintech
+- Budgeting
+- Expense Tracking
+- Money Management
+- Financial Analytics
+- AI Assistant
+- Indonesia
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +55,18 @@ maintainers:
 common:
 - type: Website
   url: https://finku.id
+- type: Blog
+  url: https://finku.id/id/blog
+- type: Support
+  url: https://finku.id/id/faq
+- type: TermsOfService
+  url: https://finku.id/id/terms-and-privacy
+- type: PrivacyPolicy
+  url: https://finku.id/id/terms-and-privacy
+- type: DomainSecurity
+  url: security/finku-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

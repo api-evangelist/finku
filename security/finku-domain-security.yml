@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: finku.id
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  6 07:39:50 2026 GMT
+  hsts: false
+domains:
+- domain: finku.id
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none

@@ -12,6 +12,17 @@ description: >-
   with 256-bit AES encryption. Finku is a consumer application and does not currently
   publish a public developer API, SDK, or developer portal; this profile originated
   as a VC-portfolio lead for the API Evangelist network.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
